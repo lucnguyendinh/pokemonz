@@ -1,9 +1,9 @@
 <template>
     <div class="card" :class="{ disable: isDisabled }" @click="handleFlipCard">
-        <div class="front" v-show="!isFlipped">
+        <div class="front" v-show="isFlipped">
             <img :src="'/src/assets/' + img" alt="" />
         </div>
-        <div class="back" v-show="isFlipped">
+        <div class="back" v-show="!isFlipped">
             <img src="../assets/images/icon_back.png" alt="" />
         </div>
     </div>
