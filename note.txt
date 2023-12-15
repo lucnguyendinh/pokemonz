@@ -1,0 +1,14 @@
+.vue
+    3 block code
+        template
+        script
+        styles
+template
+    ref
+
+props
+slot tương tự childrend
+
+event modifiers
+
+teleport: dịch chuyển component qua 1 chỗ nào đó của file exam: <teleport to="chỗ cần ra">...<teleport/>
